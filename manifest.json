@@ -1,0 +1,16 @@
+{
+  "name": "Protect Your Eyes",
+  "description": "Make the current page black",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Protect Your Eyes"
+  },
+  "manifest_version": 2
+}
